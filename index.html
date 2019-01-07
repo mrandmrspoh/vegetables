@@ -9,20 +9,78 @@
     </head>
 
     <body>
-
-        <h1>Some Favorites</h1>
-        <ul>
-            <li><a href="#">Celery Root</a>
-            <li><a href="#">Spaghetti Squash</a>
-            <li><a href="#">Killer Mushrooms</a>
-        </ul>
-
-        <h1>Wild & Wacky Vegetables</h1>
-        <p>Kale courgette salsify mustard broccoli seakale wakame potato fava bean tigernut leek celery spinach avocado cabbage celtuce rutabaga kohlrabi. Parsnip pea soko groundnut bitterleaf spring onion. Grape dulse rutabaga lentil gram kakadu plum water spinach cabbage lotus root.
-        </p>
-        <p>
-            Mung bean quandong kale prairie turnip celery gram zucchini pumpkin green bean silver beet chard endive komatsuna eggplant kakadu plum radish broccoli. Arugula amaranth fennel wakame peanut garlic chickweed. Sorrel jícama quandong kale chickpea water chestnut rock melon aubergine lettuce pea azuki bean cress onion sea lettuce dandelion nori dulse rutabaga. Coriander napa cabbage bok choy carrot kakadu plum brussels sprout bamboo shoot salad okra cucumber garlic kombu beet greens cauliflower summer purslane. Artichoke daikon horseradish arugula taro catsear kombu rock melon pea sprouts collard greens mustard courgette lettuce soko maize plantain.
-        </p>
+        <div class="container">
+            <div class="row">
+                <div class="col-3">
+                        <h1 class="h3">Some Favorites</h1>
+                    <nav class="nav nav-pills">
+                        <ul class="nav flex-column">
+                          <li class="nav-item">
+                            <a class="nav-link active" href="#">Celery Root</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="#">Spaghetti Squash</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="#">Killer Mushrooms</a>
+                          </li>
+                        </ul>
+                        <form class="form-inline my-2 my-lg-0">
+                          <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                          <button class="nav-pills active btn btn-outline-success my-2 my-sm-0 bg-primary border border-primary" type="submit">Search Recipes</button>
+                        </form>
+                    </nav>
+                </div>
+                <div class="col-8">
+                    <div class="alert alert-danger" role="alert">
+                      <span class="font-weight-bold">Uh Oh!</span> Have you had our daily dose of veggies today??
+                    </div>
+                    <h1>Wild & Wacky Vegetables</h1>
+                            <p class="pl-3 border-left">Kale courgette salsify mustard broccoli seakale wakame potato fava bean tigernut leek celery spinach avocado cabbage celtuce rutabaga kohlrabi. Parsnip pea soko groundnut bitterleaf spring onion. Grape dulse rutabaga lentil gram kakadu plum water spinach cabbage lotus root.
+                            </p>
+                    <br/>
+                    <h2>Some diseases</h2>
+                    <table class="table table-striped border"">
+                      <thead>
+                        <tr>
+                          <th scope="col">Veggie</th>
+                          <th scope="col">Disease</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <td>Beets</td>
+                          <td>Beeturia</td>
+                        </tr>
+                        <tr>
+                          <td>Carrots</td>
+                          <td>Carotenosis</td>
+                        </tr>
+                      </tbody>
+                    </table>
+                    <div class="card-group">
+                        <div class="card" style="width: 18rem;">
+                          <img class="card-img-top" src="http://cdn.sci-news.com/images/enlarge4/image_5834e-Betanin.jpg" alt="Card image cap">
+                          <div class="card-body">
+                            <h5 class="card-title">Beets</h5>
+                            <p class="card-text">Careful not to get your hands dirty.</p>
+                          </div>
+                        </div>
+                        <div class="card" style="width: 18rem;">
+                          <img class="card-img-top" src="https://www.healthline.com/hlcmsresource/images/AN_images/AN273-Carrots-732x549-Thumb.jpg" alt="Card image cap">
+                          <div class="card-body">
+                            <h5 class="card-title">Carrots</h5>
+                            <p class="card-text">Not sticks, can motivate.</p>
+                          </div>
+                        </div>
+                        x<div class="card" style="width: 18rem;">
+                          <img class="card-img-top" src="https://edge.bonnieplants.com/www/uploads/20181011003331/BONNIE-PLANTS_asparagus-iStock-852115480-2400px.jpg" alt="Card image cap">
+                          <div class="card-body">
+                            <h5 class="card-title">Asparagus</h5>
+                            <p class="card-text">Spears, spears, spears</p>
+                          </div>
+                        </div>
+                    </div>
 
     </body>
 </html>
